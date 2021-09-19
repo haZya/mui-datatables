@@ -65,9 +65,16 @@ docs/export/*
 .history
 
 # Yarn Integrity file
-.yarn-integrity
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
 
 # Yarn lock
 # Note: 
 # Remove the line below when we switched to Yarn
 # yarn.lock
+
